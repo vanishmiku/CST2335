@@ -3,4 +3,17 @@
     <string name="app_name">Lab1</string>
     <string name="hello_message">こんにちは</string>
     <string name="ButtonText">私は底です</string>
+    <string name="login_message">Login</string>
+    <string name="password_message">Password</string>
+    <string name="textEmailAddress">login name</string>
+    <string name="Radio_Button">Radio Button</string>
+    <string name="Check_Box">Check box</string>
+    <string name="sWitch">What does this do?</string>
+    <string name="dialog_message">Are you sure you want to finish the activity</string>
+    <string name="dialog_title">Close</string>
+    <string name="OK">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="loginIn">Login Now</string>
+    <string name="switchOn">Switch On</string>
+    <string name="switchOff">Swtich Off</string>
 </resources>
