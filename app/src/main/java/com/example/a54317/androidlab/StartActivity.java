@@ -33,16 +33,28 @@ public class StartActivity extends Activity {
                 backLoginActivity();
             }
         });
+        Button bt = (Button)findViewById(R.id.startButton);
+        bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                backChatWindow();
+            }
+        });
 
     }
     public void backLoginActivity(){
         Intent intent = new Intent(this,ListItemsActivity.class);
         startActivityForResult(intent,50);
     }
+    public void backChatWindow(){
+        Intent intent = new Intent(this,ChatWindow.class);
+        startActivityForResult(intent,50);
+    }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(requestCode==50){
             Log.i(ACTIVITY_NAME, "Returned to StartActivity.onActivityResult()");
+            Log.i(ACTIVITY_NAME, "User clicked Start Chat");
 
             if(resultCode==Activity.RESULT_OK){
                 String messagePassed = data.getStringExtra("Response");

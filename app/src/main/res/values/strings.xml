@@ -15,4 +15,6 @@
     <string name="loginIn">Login Now</string>
     <string name="switchOn">Switch On</string>
     <string name="switchOff">Swtich Off</string>
+    <string name="chatbutton">Chat Button</string>
+    <string name="send_btn"> Send </string>
 </resources>

@@ -16,5 +16,8 @@
     <string name="loginIn">登录</string>
     <string name="switchOn">开关开启</string>
     <string name="switchOff">开关关闭</string>
+    <string name="chatbutton">聊天按钮</string>
+    <string name="send_btn"> 发送 </string>
+
 
 </resources>
