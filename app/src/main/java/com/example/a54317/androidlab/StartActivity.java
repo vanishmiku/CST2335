@@ -33,6 +33,7 @@ public class StartActivity extends Activity {
                 backLoginActivity();
             }
         });
+
         Button bt = (Button)findViewById(R.id.startButton);
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,6 +42,16 @@ public class StartActivity extends Activity {
             }
         });
 
+        Button bt2 = (Button)findViewById(R.id.wfButton);
+        bt2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                backWeatherForecast();
+            }
+        });
+
+
+
     }
     public void backLoginActivity(){
         Intent intent = new Intent(this,ListItemsActivity.class);
@@ -48,6 +59,10 @@ public class StartActivity extends Activity {
     }
     public void backChatWindow(){
         Intent intent = new Intent(this,ChatWindow.class);
+        startActivityForResult(intent,50);
+    }
+    public void backWeatherForecast(){
+        Intent intent = new Intent(this,WeatherForecast.class);
         startActivityForResult(intent,50);
     }
     @Override

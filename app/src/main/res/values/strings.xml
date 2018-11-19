@@ -17,4 +17,9 @@
     <string name="switchOff">Swtich Off</string>
     <string name="chatbutton">Chat Button</string>
     <string name="send_btn"> Send </string>
+    <string name="wfButton">Weather ForeCast</string>
+    <string name="current_temperature">Current Temperature: </string>
+    <string name="min_temperature"> Minimum Temperature: </string>
+    <string name="max_temperature"> Maximum Temperature: </string>
+    <string name="wind_speed"> Wind Speed: </string>
 </resources>

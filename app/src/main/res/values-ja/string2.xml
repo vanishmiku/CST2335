@@ -18,4 +18,10 @@
     <string name="switchOff">Swtich Off</string>
     <string name="chatbutton">Chat Button</string>
     <string name="send_btn"> Send </string>
+    <string name="wfButton">天气预报</string>
+    <string name="current_temperature">当前温度: </string>
+    <string name="min_temperature"> 最低温度: </string>
+    <string name="max_temperature"> 最高温度: </string>
+    <string name="wind_speed"> 风速: </string>
+
 </resources>
