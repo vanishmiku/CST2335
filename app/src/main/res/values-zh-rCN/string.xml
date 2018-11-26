@@ -23,6 +23,8 @@
     <string name="min_temperature"> 最低温度: </string>
     <string name="max_temperature"> 最高温度: </string>
     <string name="wind_speed"> 风速: </string>
+    <string name="delete_message"> delete message </string>
+
 
 
 </resources>
